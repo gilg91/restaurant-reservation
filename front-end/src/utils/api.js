@@ -165,6 +165,7 @@ export async function updateStatus(reservationId, status, signal) {
    return await fetchJson(url, options, {});
  }
  
+ 
  // delete seat
  export async function deleteSeat(tableId, signal) {
    const url = new URL(`${API_BASE_URL}/tables/${tableId}/seat`);
