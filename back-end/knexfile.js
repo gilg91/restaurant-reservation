@@ -8,10 +8,10 @@ require('dotenv').config();
 const path = require("path");
 
 const {
-  DATABASE_URL = "postgres://trcntaqq:wT3q3oZNfu77CvYkHPLinTKJFwnszwxk@kashin.db.elephantsql.com/trcntaqq",
-  DATABASE_URL_DEVELOPMENT = "postgres://xhoorvtz:zFbHMgZ_talf8Oa7rMeeIjvRX0GpQemM@kashin.db.elephantsql.com/xhoorvtz",
-  DATABASE_URL_TEST = "postgres://mvrwtzli:h2yAwklqTEidX-Yn5vAcNAsakPiVdU4b@kashin.db.elephantsql.com/mvrwtzli",
-  DATABASE_URL_PREVIEW = "postgres://ieoqxtso:onpujKeJNFQO2kiVvfwSjoe8rNaxfVOm@kashin.db.elephantsql.com/ieoqxtso",
+  DATABASE_URL = "postgres://efitrqig:vOLdC4LT_qgtT-wt_j2GXi2nMrbTKKO2@kashin.db.elephantsql.com/efitrqig",
+  DATABASE_URL_DEVELOPMENT = "postgres://bmrobplu:bTybMIYcad75LAy6RMPW4Uq5EKf1L3yb@kashin.db.elephantsql.com/bmrobplu",
+  DATABASE_URL_TEST = "postgres://pufgciki:03_sBNb1Mg2YKaFc4eFAGEEzd5Dx-Izo@kashin.db.elephantsql.com/pufgciki",
+  DATABASE_URL_PREVIEW = "postgres://jgiujqvm:3IZJvrZo3TCYi8XXyYsKiW_IZdvHjJRe@kashin.db.elephantsql.com/jgiujqvm",
   DEBUG,
 } = process.env;
 
